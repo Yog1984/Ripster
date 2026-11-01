@@ -1,0 +1,7 @@
+Ripster 1.3 — WAV, MP3, FLAC et notifications sonores.
+
+Déposez ripster.py, sounds/ et .github/workflows/build.yml dans un dépôt GitHub.
+Dans Actions, lancez Construire Ripster Portable puis téléchargez l’artefact Windows.
+Les sons sont intégrés dans le .exe via PyInstaller.
+Sons : succès pétillant (fin complète), erreur, CD détecté (désactivé par défaut). Boutons ▶ pour tester.
+Attention : compilation Windows et lecture de CD non testées ici. Les restrictions Windows peuvent empêcher l’exécution ou la lecture du lecteur CD.
